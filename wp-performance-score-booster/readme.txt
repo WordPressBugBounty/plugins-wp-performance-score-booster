@@ -1,17 +1,17 @@
 === WP Performance Score Booster – Optimize Speed, Enable Cache & Page Preload ===
 Contributors: dipakcg
-Tags: performance, optimize, speed, query string, preload, gzip, gtmetrix, etag, compression, headers, cache, pagespeed
+Tags: performance, optimize, speed, query string, preload, gzip, gtmetrix, etag, compression, pagespeed, google psi
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3S8BRPLWLNQ38
 Requires at least: 3.5
-Tested up to: 6.6
+Tested up to: 6.7.2
 Requires PHP: 5.6
-Stable tag: 2.2.2
+Stable tag: 2.2.3
 License: GPLv2 or later
 
-Make website faster, speed up page load time and improve performance scores in services like GTmetrix, Pingdom, YSlow and PageSpeed.
+Make website faster, speed up page load time and improve performance scores in tools like Google PageSpeed Insights, GTmetrix, Pingdom, and more.
 
 == Description ==
-**WP Performance Score Booster makes website faster, speeds up page load time, and instantly improves website performance scores in services like GTmetrix, Pingdom, YSlow, and PageSpeed.**
+**WP Performance Score Booster makes website faster, speeds up page load time, and instantly improves website performance scores in tools like Google PageSpeed Insights, GTmetrix, Pingdom, and more.**
 
 = This plugin will... =
 * Remove any query strings from static resources like CSS & JS files
@@ -22,22 +22,37 @@ Make website faster, speed up page load time and improve performance scores in s
 
 [youtube https://www.youtube.com/watch?v=nEFZLFyZNcE]
 
-**Follow the development of this plugin on [GitHub](https://github.com/dipakcg/wp-performance-score-booster)**
+**Like this plugin? You'll love my other plugin: [WP Super Minify](https://wordpress.org/plugins/wp-super-minify/)**
 
-**P.S. It is always the best policy to open a [support thread](https://wordpress.org/support/plugin/wp-performance-score-booster#new-topic-0) first before posting any negative review.**
+#### Development & Support
+
+Follow the development of this plugin on [GitHub](https://github.com/dipakcg/wp-performance-score-booster).
+
+P.S. It is always the best policy to open a [support thread](https://wordpress.org/support/plugin/wp-performance-score-booster#new-topic-0) first before posting any negative review.
 
 == Installation ==
-Just install from your WordPress “Plugins > Add New” screen and all will be well. Manual installation is very straightforward as well:
+= Automatic Installation (Recommended) =
+1. Go to your WordPress Dashboard → Plugins → Add New.
+2. Search for `WP Performance Score Booster`.
+3. Click Install Now, then Activate the plugin.
+4. The plugin is now ready to use!
 
-1. Download the plugin (.zip file).
-2. Unzip it, and uplaod `wp-performance-score-booster` folder to the `/wp-content/plugins/` directory.
-3. Activate the plugin through the `Plugins` menu in WordPress.
-4. That’s it!
+= Manual Installation (Upload via WordPress Dashboard) =
+1. Download the latest version of the plugin (.zip file).
+2. In your WordPress Dashboard, go to Plugins → Add New → Upload Plugin.
+3. Click Choose File, select the downloaded .zip file, and click Install Now.
+4. Once installed, click Activate Plugin.
+
+= Manual Installation (FTP/SFTP Method) =
+1. Download and extract the plugin .zip file.
+2. Connect to your server via FTP/SFTP.
+3. Upload the extracted folder to /wp-content/plugins/.
+4. In your WordPress Dashboard, go to Plugins and activate `WP Performance Score Booster`.
 
 == Frequently Asked Questions ==
 = What does this plugin do? =
 
-This plugin makes website faster, speed-up page load time and instantly improve website scores in services like GTmetrix, Pingdom, YSlow and PageSpeed.
+This plugin makes website faster, speed-up page load time and instantly improve website scores in tools like Google PageSpeed Insights, GTmetrix, Pingdom, and more.
 
 = Any specific requirements for this plugin to work? =
 
@@ -69,6 +84,11 @@ If this plugin has helped you in any way, you can:
 1. Admin Settings
 
 == Changelog ==
+= 2.2.3, February 17, 2025 =
+* Improve: Compatibility with WordPress 6.7.2 and PHP
+* Improve: Replaced instant.page with custom-built Preloader and Prefetcher (preloader.js)
+* Improve: Admin page design — cosmic changes
+
 = 2.2.2, October 18, 2024 =
 * Improve: Compatibility with WordPress 6.6
 
@@ -171,6 +191,3 @@ If this plugin has helped you in any way, you can:
 
 = 2.0 =
 This version adds support for page preloading, improves compression and caching rules for faster speed, and has newly designed settings page. Recommended upgrade.
-
-== Credits ==
-_• This plugin uses [instant.page](https://instant.page/) library for page preloading._
